@@ -1,0 +1,90 @@
+
+@media (width >= 768px){
+    .heading_container{
+        padding: 32px 32px 87px 32px;
+        background-image: url(./Images/768px/Girl_Image.svg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .girl_375px{
+        display: none;
+    }
+    .heading_main_part{
+        margin-top: 105px;
+
+    }
+    .heading_text{
+        gap: 25px;
+    }
+    .heading_text > h1{
+        max-width: 326px;
+    }
+    .heading_text > p{
+        max-width: 398px;
+    }
+    .six_boxes_container{
+        margin-top: 123px;
+        padding-left: 32px;
+        padding-right: 32px;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 56px;
+        column-gap: 11px;
+    }
+    .first_box{
+        padding-top: 76px;
+    }
+    .footer_container{
+        margin-top: 86px;
+        padding: 43px 32px 42px 32px;
+    }
+}
+@media (width >= 1024px){
+    .heading_container{
+        padding: 32px 120px 120px 120px;
+        background-image: url(./Images/1024px/Girl_Image.svg);
+        background-repeat: no-repeat;
+        background-position-x: right;
+    }
+    .heading_main_part{
+        margin-top: 178px;
+    }
+    .heading_text{
+        gap: 35px;
+    }
+    .heading_text > h1{
+        max-width: 457px;
+        color: var(--13183F, #13183F);
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Heading XL */
+        font-family: Plus Jakarta Sans;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+    .heading_text > p{
+        max-width: 445px;
+        color: var(--83869A, #83869A);
+        font-feature-settings: 'clig' off, 'liga' off;
+        
+        /* Body M */
+        font-family: Plus Jakarta Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px; /* 155.556% */
+    }
+    .six_boxes_container{
+        margin-top: 130px;
+        padding-left: 120px;
+        padding-right: 120px;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 30px;
+        row-gap: 80px;
+    }
+    .footer_container{
+        margin-top: 130px;
+        padding: 37px 120px 38px 120px;
+    }
+}
